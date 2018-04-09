@@ -4,7 +4,8 @@
   "description": "**Use standard lab submission procedure**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start":"npm run test -- -w"
   },
   "repository": {
     "type": "git",
