@@ -8,4 +8,5 @@ describe('Array squares over 20', () => {
         const result = highSquares(array);
         assert.deepEqual(result, [25, 49]);
     });
+    
 });
