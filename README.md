@@ -2,8 +2,8 @@
 
 **Use standard lab submission procedure**
 
-Write a **tested** library function (a function exported from a module) that 
-takes an array of numbers (you can assume valid input)
+Write a **tested** (mocha unit test) library function (a function exported from a module) 
+that takes an array of numbers (you can assume valid input)
 and returns a new array that contains the square of the input numbers
 filtered to only contain those squares greater than 20.
 
@@ -21,11 +21,12 @@ Repo already includes:
 
 You will need to:
 * create your `package.json`!
+* install dev dependencies
+* organize project
 * create `scripts`
     * **please make sure _also_:**
         * npm i eslint -D
         * add `"pretest": "eslint ."
-* install dev dependencies
 
 Quiz is open book, internet, etc...
 
