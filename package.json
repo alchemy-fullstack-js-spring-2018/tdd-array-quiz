@@ -4,6 +4,7 @@
   "description": "**Use standard lab submission procedure**",
   "main": "index.js",
   "scripts": {
+    "pretest":"eslint",
     "test": "mocha",
     "start":"npm run test -- -w"
   },
