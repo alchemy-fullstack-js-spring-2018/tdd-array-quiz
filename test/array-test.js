@@ -8,6 +8,4 @@ describe('squared array', () => {
         const newArr = quiz.map(arr, x => x * x).filter(arr, x => x > 20);
         assert.equal(newArr, [1, 16, 25, 54]);
     });
-
-
 });
