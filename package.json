@@ -1,0 +1,19 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "**Use standard lab submission procedure**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alchemy-fullstack-js-spring-2018/tdd-array-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemy-fullstack-js-spring-2018/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/alchemy-fullstack-js-spring-2018/tdd-array-quiz"
+}
