@@ -1,0 +1,29 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "**Use standard lab submission procedure**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha",
+    "start": "npm run test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorbofill/tdd-array-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorbofill/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/victorbofill/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5"
+  }
+}
